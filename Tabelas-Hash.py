@@ -14,7 +14,7 @@ if p not in caderno:
 else:
     print(caderno[p]) '''
 
-#Exercicio 01 Criar um dict com nome e idade, digite um nome e retorne a idade
+#Criar um dict com nome e idade, digite um nome e retorne a idade
 
 '''
 pessoa = {
@@ -31,7 +31,7 @@ if c not in pessoa:
 else:
     print(f'ATAAAAA PO o {c} tem {pessoa[c]} anos pô!') '''
 
-#Exercicio 02 verificar se o número está duplicado
+#Verificar se o número está duplicado
 '''
 lista = [1, 2, 3, 4, 5, 2]
 sem_rep = []
@@ -54,7 +54,7 @@ for i in lista:
     else:
         vistos[i] = True '''
 
-#Exercicio 03 verificar quantas vezes a palavra aparece
+#Verificar quantas vezes a palavra aparece
 
 '''
 lista = ["maçã", "banana", "maçã", "uva"]
@@ -70,7 +70,7 @@ print(contador)
 
 #Sei fazer não! '''
 
-#Dada uma lista de números, retorne True se existir duplicado, senão False.
+#Dada uma lista de números, retorna True se existir duplicado, senão False.
 
 
 def tem_duplicado(lista):
@@ -87,7 +87,7 @@ print(tem_duplicado([4,8,9,2,4]))
 def primeiro_repetido(lista):
     vistos = set()
 
-    for num in lista: #Usando Hash para verificar o primeiro valor número duplicado
+    for num in lista:      #Usando Hash para verificar o primeiro valor número duplicado
         if num in vistos:
             return num
         vistos.add(num)
