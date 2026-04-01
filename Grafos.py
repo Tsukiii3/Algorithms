@@ -1,5 +1,6 @@
 from collections import deque
-'''
+
+#Criar grafo e pesquisar um valor
 grafo = {
   "voce": ["alice", "bob"],
   "bob": ["anuj", "peggy"],
@@ -22,9 +23,9 @@ while fila:
             break
         else:
             fila += grafo[pessoa]
-            verificados.append(pessoa) '''
+            verificados.append(pessoa) 
 
-#Exericio 4 e 5, Criar um grafo e FAZER UMA PROCURA BFS
+ #Criar um grafo e FAZER UMA PROCURA BFS
 grafo = {
     'A': ['B' 'C'],
     'B': ['D'],
